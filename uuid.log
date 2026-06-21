@@ -1,4 +1,5 @@
 142f5559-d7a7-4c69-be07-0645bda3de04 nemar-s3 timestamp=1782025255s
 48a3b330-8e32-434a-8ab3-be6e60d54036 root@openneuro-prod-dataset-worker-1:/datalad/ds002720 timestamp=1587589361.622179281s
 64acb3d8-3d94-4f06-b1a4-dbffcac35478 runner@runnervm7b5n9:/tmp/nemar-import-on002720-tEn16L/on002720 timestamp=1782025252s
+7b40c18d-0764-46a8-8b6e-d41cbc123fb1 runner@runnervm7b5n9:/tmp/nemar-finalize-on002720-pHb0wL/on002720-finalize timestamp=1782025318s
 e1c60b18-9ba5-427d-a297-f846feb1773d s3-PUBLIC timestamp=1587741928.373874735s
