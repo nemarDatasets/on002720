@@ -1,0 +1,33 @@
+{
+  "version": "2.0",
+  "dataset_id": "on002720",
+  "source": "openneuro",
+  "source_id": "ds002720",
+  "title": "A  dataset  recorded  during  development  of a  tempo-based  brain-computer  music  interface",
+  "authors": {
+    "Ian Daly": {},
+    "Nicoletta Nicolaou": {},
+    "Duncan Williams": {},
+    "Faustina Hwang": {},
+    "Alexis Kirke": {},
+    "Eduardo Miranda": {},
+    "Slawomir J. Nasuto": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds002720.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.0.2",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
