@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "A  dataset  recorded  during  development  of a  tempo-based  brain-computer  music  interface",
+  "description": "This dataset contains electroencephalogram (EEG) recordings from 19 healthy participants using a brain-computer music interface designed to enable real-time control of musical tempo through motor imagery. Participants performed kinesthetic motor imagery tasks—imagining squeezing a ball to increase tempo or relaxing to decrease tempo—across nine experimental runs including a calibration phase. The data were collected at 1 kHz sampling rate with 20-second epochs synchronized to music clips, providing a resource for investigating the neural correlates of intentional tempo modulation and music-based brain-computer interface design. This dataset accompanies the publication by Daly et al. (2018). Full methodological details are available in Daly et al. (2014a, 2014b).",
+  "methods_description": "EEG data were recorded from 19 healthy participants at a sampling rate of 1 kHz. The experimental paradigm consisted of 9 runs, with the first run serving as calibration containing 30 paired trials of increase and decrease tempo conditions. Participants used kinesthetic motor imagery (imagining squeezing a ball in the right hand to increase tempo, or relaxing to decrease tempo) to control the tempo of music clips. Each EEG recording corresponded to a 20-second music clip duration. The synthetic music generator used to generate the music clips was presented in Williams et al. (2017). Full methodological details are available in Daly et al. (2014a, 2014b).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,6 +22,26 @@
     "Eduardo Miranda": {},
     "Slawomir J. Nasuto": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "music tempo control"
+    },
+    {
+      "term": "kinesthetic imagery"
+    },
+    {
+      "term": "music"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds002720.v1.0.1",
@@ -52,12 +74,22 @@
       "relation_type": "IsDescribedBy"
     }
   ],
+  "funding_references": [
+    {
+      "funder_name": "Engineering and Physical Sciences Research Council",
+      "award_number": "EP/J003077/1"
+    },
+    {
+      "funder_name": "Engineering and Physical Sciences Research Council",
+      "award_number": "EP/J002135/1"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "2.6 GB (169 files)"
   ],
   "formats": [
     ".edf",
@@ -68,45 +100,8 @@
     ".mid",
     ".mxf",
     ".pdf",
-    ".tsv"
-  ],
-  "description": "This dataset contains electroencephalogram (EEG) recordings from 19 healthy participants using a brain-computer music interface designed to enable real-time control of musical tempo through motor imagery. Participants performed kinesthetic motor imagery tasks—imagining squeezing a ball to increase tempo or relaxing to decrease tempo—across nine experimental runs including a calibration phase. The data were collected at 1 kHz sampling rate with 20-second epochs synchronized to music clips, providing a resource for investigating the neural correlates of intentional tempo modulation and music-based brain-computer interface design. This dataset accompanies Daly et al. (2018) and has been analysed in Daly et al. (2014a; 2014b).",
-  "methods_description": "EEG data were recorded from 19 healthy participants at a sampling rate of 1 kHz. The experimental paradigm consisted of 9 runs, with the first run serving as calibration containing 30 trials in pairs of increase and decrease tempo conditions. Participants used kinesthetic motor imagery—imagining squeezing a ball in the right hand to increase tempo or relaxing to decrease tempo. Each EEG recording corresponded to a 20-second music clip. The synthetic music generator used to generate the music clips was presented in Williams et al. (2017): 'Affective Calibration of Musical Feature Sets in an Emotionally Intelligent Music Composition System', ACM Trans. Appl. Percept. 14, 3, Article 17 (May 2017).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "music tempo control"
-    },
-    {
-      "term": "tempo"
-    },
-    {
-      "term": "affective"
-    },
-    {
-      "term": "music composition"
-    },
-    {
-      "term": "real-time control"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "Engineering and Physical Sciences Research Council",
-      "award_number": "EP/J003077/1"
-    },
-    {
-      "funder_name": "Engineering and Physical Sciences Research Council",
-      "award_number": "EP/J002135/1"
-    }
+    ".tsv",
+    ".yml"
   ],
   "source_hash": "2a0dd36476a96db6960b6a87ad1eb3796e159eba5aa33a2fd44ba3b237bb07e6"
 }
