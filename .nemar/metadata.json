@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "A  dataset  recorded  during  development  of a  tempo-based  brain-computer  music  interface",
-  "description": "This dataset contains electroencephalogram (EEG) recordings from 19 healthy participants using a brain-computer music interface designed to enable real-time control of musical tempo through motor imagery. Participants performed kinesthetic motor imagery tasks—imagining squeezing a ball to increase tempo or relaxing to decrease tempo—across nine experimental runs including a calibration phase. The data were collected at 1 kHz sampling rate with 20-second epochs synchronized to music clips, providing a resource for investigating the neural correlates of intentional tempo modulation and music-based brain-computer interface design. This dataset accompanies the publication by Daly et al. (2018). Full methodological details are available in Daly et al. (2014a, 2014b).",
-  "methods_description": "EEG data were recorded from 19 healthy participants at a sampling rate of 1 kHz. The experimental paradigm consisted of 9 runs, with the first run serving as calibration containing 30 paired trials of increase and decrease tempo conditions. Participants used kinesthetic motor imagery (imagining squeezing a ball in the right hand to increase tempo, or relaxing to decrease tempo) to control the tempo of music clips. Each EEG recording corresponded to a 20-second music clip duration. The synthetic music generator used to generate the music clips was presented in Williams et al. (2017). Full methodological details are available in Daly et al. (2014a, 2014b).",
+  "description": "This dataset contains EEG recordings from 19 healthy participants engaged in a music-based brain-computer interface (BCMI) paradigm designed to modulate the tempo of a musical piece through intentional motor imagery. Participants either kinaesthetically imagined squeezing a ball with their right hand to increase tempo or relaxed to decrease it, over nine experimental runs including a calibration phase. The dataset supports research into affective and tempo-based brain-computer music interfaces developed under the BCMI-MIdAS project.",
+  "methods_description": "EEG data were recorded at a sampling rate of 1 kHz from 19 healthy participants performing a tempo modulation task via kinaesthetic motor imagery (squeezing a ball) or relaxation. The paradigm consisted of nine runs, the first being a calibration run with 30 trials of paired increase/decrease tempo conditions, each EEG segment corresponding to a 20 s music clip.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,7 +24,9 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
       "term": "brain-computer interface"
@@ -33,28 +35,18 @@
       "term": "motor imagery"
     },
     {
-      "term": "music tempo control"
+      "term": "music tempo"
     },
     {
-      "term": "kinesthetic imagery"
+      "term": "affective computing"
     },
     {
-      "term": "music"
+      "term": "EEG"
     }
   ],
   "related_identifiers": [
     {
-      "identifier": "10.18112/openneuro.ds002720.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
       "identifier": "https://github.com/nemarDatasets/on002720",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002720",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -64,13 +56,13 @@
       "relation_type": "References"
     },
     {
-      "identifier": "10.1109/EMBC.2014.6944053",
+      "identifier": "10.18112/openneuro.ds002720.v1.0.1",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsDerivedFrom"
     },
     {
-      "identifier": "10.1109/GRAZ.2014.6913915",
-      "identifier_type": "DOI",
+      "identifier": "https://nemar.org/dataset/on002720",
+      "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
   ],
@@ -89,7 +81,7 @@
     "eeg"
   ],
   "sizes": [
-    "2.6 GB (169 files)"
+    "2.38 GB (169 files)"
   ],
   "formats": [
     ".edf",
@@ -103,5 +95,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "2a0dd36476a96db6960b6a87ad1eb3796e159eba5aa33a2fd44ba3b237bb07e6"
+  "source_hash": "69416bb28d0692530ca0a5899b8a4fcac06654a5531cc36912168b7e42b9aa3b"
 }
