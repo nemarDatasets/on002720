@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on002720-blue)](https://doi.org/10.82901/nemar.on002720)
+
 0. Sections
 ------------
 
@@ -36,7 +38,7 @@ Organisation: University of Reading
 
 Rights-holders: University of Reading
 
-Source: The synthetic generator used to generate the music clips was presented in Williams et al., “Affective Calibration of Musical Feature Sets in an Emotionally Intelligent Music Composition System”, ACM Trans. Appl. Percept. 14, 3, Article 17 (May 2017), 13 pages. DOI: https://doi.org/10.1145/3059005
+Source: The synthetic generator used to generate the music clips was presented in Williams et al., â€œAffective Calibration of Musical Feature Sets in an Emotionally Intelligent Music Composition Systemâ€, ACM Trans. Appl. Percept. 14, 3, Article 17 (May 2017), 13 pages. DOI: https://doi.org/10.1145/3059005
 
 3. TERMS OF USE
 -----------------
@@ -57,10 +59,10 @@ The data is provided in BIDS format. The sampling rate is 1 kHz and the EEG corr
 
 This information is available in the following publications:
 
-[1] Daly, I., � ��, Dataset paper, 2018.
-[2] Daly, I., Hallowell, J., Hwang, F., Kirke, A., Malik, A., Roesch, E., Weaver, J., Williams, D., Miranda, E. R., Nasuto, S. J., �Changes in music tempo entrain movement related brain activity�, in Proc. 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC'14), Chicago, Illinois, USA; pp. , 2014a.
+[1] Daly, I., … “”, Dataset paper, 2018.
+[2] Daly, I., Hallowell, J., Hwang, F., Kirke, A., Malik, A., Roesch, E., Weaver, J., Williams, D., Miranda, E. R., Nasuto, S. J., “Changes in music tempo entrain movement related brain activity”, in Proc. 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC'14), Chicago, Illinois, USA; pp. , 2014a.
 
-[3] Daly, I., Williams, D., Hwang, F., Kirke, A., Malik, A., Roesch, E., Weaver, J., Miranda, E. R., Nasuto, S. J., �Brain-computer music interfacing for continuous control of musical tempo�, in Proc. 6th International Brain-Computer Interface Conference 2014, Graz, Austria; 2014b
+[3] Daly, I., Williams, D., Hwang, F., Kirke, A., Malik, A., Roesch, E., Weaver, J., Miranda, E. R., Nasuto, S. J., “Brain-computer music interfacing for continuous control of musical tempo”, in Proc. 6th International Brain-Computer Interface Conference 2014, Graz, Austria; 2014b
 
 Please cite these references and the reference to the music generator if you use this dataset in your study.
 
